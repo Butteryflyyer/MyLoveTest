@@ -7,7 +7,7 @@
 //
 
 #import "XHAppDelegate.h"
-
+#import <AVKit/AVKit.h>
 @implementation XHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

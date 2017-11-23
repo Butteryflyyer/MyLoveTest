@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLoveTest'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'mylovetest'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   hello.这是一个测试
                        DESC
 
   s.homepage         = 'https://github.com/Butteryflyyer/MyLoveTest'
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MyLoveTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyLoveTest' => ['MyLoveTest/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MyLoveTest' => ['MyLoveTest/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit','AVKit'
+   s.dependency 'AFNetworking', '~> 3.0','MJRefresh'
 end
