@@ -1,0 +1,6 @@
+framework module MyLoveTest {
+  umbrella header "MyLoveTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
