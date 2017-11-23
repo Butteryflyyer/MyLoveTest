@@ -1,9 +1,9 @@
 {
   "name": "MyLoveTest",
   "version": "0.1.0",
-  "summary": "A short description of MyLoveTest.",
+  "summary": "mylovetest",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/153444073@qq.com/MyLoveTest",
+  "homepage": "https://github.com/Butteryflyyer/MyLoveTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "153444073@qq.com": "153444073@qq.com"
   },
   "source": {
-    "git": "https://github.com/153444073@qq.com/MyLoveTest.git",
+    "git": "https://github.com/Butteryflyyer/MyLoveTest.git",
     "tag": "0.1.0"
   },
   "platforms": {

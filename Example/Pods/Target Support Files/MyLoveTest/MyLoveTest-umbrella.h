@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "testobject.h"
 
 FOUNDATION_EXPORT double MyLoveTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyLoveTestVersionString[];

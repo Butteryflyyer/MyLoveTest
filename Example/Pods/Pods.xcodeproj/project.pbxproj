@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17D69A6F237D290C8EF365EF0C359749 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BE6116B0CC547DED293C98D7326D3 /* ReplaceMe.m */; };
-		1C76FAC684B23A57BA3BD693A7EBD64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		09A4B1A5F44D9124151AD8FD0F68FE9C /* testobject.h in Headers */ = {isa = PBXBuildFile; fileRef = F5065E5CA7840C9FECFC1D58BE035C1C /* testobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3221B639BC220A25C1F9281219008809 /* MyLoveTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F117128182F1DC68A0B1F2E172A28E04 /* MyLoveTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E3192F2211B1DFAF85F3B02F0A6521 /* MyLoveTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C61B6EC513E4DFD71649C786F938D /* MyLoveTest-dummy.m */; };
 		37EAB42FFA4FF7ABBA5119E8122546E4 /* Pods-MyLoveTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0716B82C19C84D41A39D6C95E08A26C /* Pods-MyLoveTest_Tests-dummy.m */; };
 		4FD4E4FAE836C608FF6F7F2192911358 /* Pods-MyLoveTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A199C0B0E0E66A11E88547F9D0FFFE71 /* Pods-MyLoveTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591DA46B73C36DF26A03070DAD33633A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6EE9A6D78A083BF990B8655FF745465E /* Pods-MyLoveTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A57522B088F820252B7308CE38A2F1 /* Pods-MyLoveTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87D15BDC485ABA76EAEB6E06193185C4 /* Pods-MyLoveTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F98DF9F2B2BBED73F102A58CAAE66 /* Pods-MyLoveTest_Example-dummy.m */; };
-		A0906C54D0369D495BDB6F163DF99B4B /* MyLoveTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9F824133439438E11D78D8D830B3A /* MyLoveTest-dummy.m */; };
-		C63FA9C935A7F499D487CCB7471B6671 /* MyLoveTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF50E600180BFD06E84896D50194F49 /* MyLoveTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA3CC212C8A163747018767E0EF953A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E31B6F5DB8968DDAB9E55983E56AC3C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FD1F95661FBFC3A371D0F89E677769A9 /* testobject.m in Sources */ = {isa = PBXBuildFile; fileRef = B14322189490E0B852DE80962CB857F9 /* testobject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,17 +25,18 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FEB8F2A3F391DEAA4205D3F1E4E18AA;
+			remoteGlobalIDString = ABC39EE04704EB2640B26D218960F066;
 			remoteInfo = MyLoveTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04625CA28A989FE6EC287415A2F60FD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11886C6E51922E427B92EEEC5A1FE04A /* MyLoveTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoveTest.xcconfig; sourceTree = "<group>"; };
+		14DC630464F365C9CBD1BE3CF56E92AC /* MyLoveTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoveTest-prefix.pch"; sourceTree = "<group>"; };
 		19A95A6F383C8A02C8A19D7EB8336CF2 /* Pods_MyLoveTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyLoveTest_Example.framework; path = "Pods-MyLoveTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C81A3BCC3A66A62D7577152A02E8E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AB418CAAB6FC3FD3FD40AA7B481E881 /* MyLoveTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoveTest-prefix.pch"; sourceTree = "<group>"; };
 		408C9F4CC8B883545A457A5BD1261EE8 /* Pods-MyLoveTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoveTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		442C61B6EC513E4DFD71649C786F938D /* MyLoveTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLoveTest-dummy.m"; sourceTree = "<group>"; };
 		47A57522B088F820252B7308CE38A2F1 /* Pods-MyLoveTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLoveTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B732221ACA344B46528DEBD07229432 /* Pods-MyLoveTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLoveTest_Example-resources.sh"; sourceTree = "<group>"; };
 		51422B6E6E453A9FE4B6C25C7AADB2E2 /* Pods-MyLoveTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLoveTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -42,26 +44,26 @@
 		61AD781FDF3C25AF3C08D50E238D26B9 /* Pods-MyLoveTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoveTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		65206AD1EDDD027F4DB2110C5FA84294 /* Pods-MyLoveTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoveTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E409BFBC8D785F21F2D7C9CD93D7DF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		715A5F52ED21763A12A19FB26D209959 /* Pods-MyLoveTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLoveTest_Tests-resources.sh"; sourceTree = "<group>"; };
-		8F6BE6116B0CC547DED293C98D7326D3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyLoveTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		8FF50E600180BFD06E84896D50194F49 /* MyLoveTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoveTest-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95DCBC6E00EC88BAE9A0F5410E976A7E /* MyLoveTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoveTest.xcconfig; sourceTree = "<group>"; };
 		975AD2F976936DD33B952A0595DD63C3 /* Pods_MyLoveTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyLoveTest_Tests.framework; path = "Pods-MyLoveTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199C0B0E0E66A11E88547F9D0FFFE71 /* Pods-MyLoveTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLoveTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A8CFF427E967D853C8B6DB39461F57F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFEC5A339A79108E4DA34D0979879A81 /* Pods-MyLoveTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyLoveTest_Example.modulemap"; sourceTree = "<group>"; };
 		B0716B82C19C84D41A39D6C95E08A26C /* Pods-MyLoveTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLoveTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		B14322189490E0B852DE80962CB857F9 /* testobject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = testobject.m; path = MyLoveTest/Classes/testobject.m; sourceTree = "<group>"; };
 		B4F475DB6660002952997FBD0C3B1D4C /* Pods-MyLoveTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoveTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD6E385B2827E3891FD4A64275A4F8CC /* Pods-MyLoveTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoveTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD7FB8FC1EA7703AC09A8C2B66CC0D78 /* MyLoveTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MyLoveTest.modulemap; sourceTree = "<group>"; };
 		C55B24A6E7BEC7E603AFEA6D94B04798 /* Pods-MyLoveTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoveTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CC876919A5270BFAF1103E7FA6FB4546 /* MyLoveTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLoveTest.framework; path = MyLoveTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A1DB2DBF749107458E39CE87CB7109 /* MyLoveTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MyLoveTest.modulemap; sourceTree = "<group>"; };
 		E07BD022C1F2B9538CCC47E787C39337 /* Pods-MyLoveTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLoveTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ECFA99AF97C0F457DAB7E29F171EE671 /* Pods-MyLoveTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLoveTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EEA700F851626F1C9AEF3C1B3A0C35E1 /* Pods-MyLoveTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyLoveTest_Tests.modulemap"; sourceTree = "<group>"; };
-		EFC9F824133439438E11D78D8D830B3A /* MyLoveTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLoveTest-dummy.m"; sourceTree = "<group>"; };
 		F08F98DF9F2B2BBED73F102A58CAAE66 /* Pods-MyLoveTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLoveTest_Example-dummy.m"; sourceTree = "<group>"; };
+		F117128182F1DC68A0B1F2E172A28E04 /* MyLoveTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoveTest-umbrella.h"; sourceTree = "<group>"; };
+		F5065E5CA7840C9FECFC1D58BE035C1C /* testobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = testobject.h; path = MyLoveTest/Classes/testobject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F66E192F701089F685F915CD12AD71A3 /* Frameworks */ = {
+		94963E017098ED22E367AC64C297FB4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C76FAC684B23A57BA3BD693A7EBD64A /* Foundation.framework in Frameworks */,
+				591DA46B73C36DF26A03070DAD33633A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,33 +103,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5BB0B9484C9DEAF222B119CE9689BFBF /* Development Pods */ = {
+		43875E9DA47CAC4F998CA791A95566E3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BC979A4A2BC254C2884611FA11A815A /* MyLoveTest */,
+				78AD5A6E095A5326A69C786ED2A32689 /* MyLoveTest */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		78AD5A6E095A5326A69C786ED2A32689 /* MyLoveTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5065E5CA7840C9FECFC1D58BE035C1C /* testobject.h */,
+				B14322189490E0B852DE80962CB857F9 /* testobject.m */,
+				92A6B421871D2E22DA4C18693C2F274B /* Support Files */,
+			);
+			name = MyLoveTest;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5BB0B9484C9DEAF222B119CE9689BFBF /* Development Pods */,
+				43875E9DA47CAC4F998CA791A95566E3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C39D5210C45C32C98CE2F253C2BB872F /* Products */,
 				171306593604A949C80712BFDEF054F1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9BC979A4A2BC254C2884611FA11A815A /* MyLoveTest */ = {
+		92A6B421871D2E22DA4C18693C2F274B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F6BE6116B0CC547DED293C98D7326D3 /* ReplaceMe.m */,
-				E2C7DEF672947FBEB60BC5EF37554353 /* Support Files */,
+				6E409BFBC8D785F21F2D7C9CD93D7DF8 /* Info.plist */,
+				BD7FB8FC1EA7703AC09A8C2B66CC0D78 /* MyLoveTest.modulemap */,
+				11886C6E51922E427B92EEEC5A1FE04A /* MyLoveTest.xcconfig */,
+				442C61B6EC513E4DFD71649C786F938D /* MyLoveTest-dummy.m */,
+				14DC630464F365C9CBD1BE3CF56E92AC /* MyLoveTest-prefix.pch */,
+				F117128182F1DC68A0B1F2E172A28E04 /* MyLoveTest-umbrella.h */,
 			);
-			name = MyLoveTest;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyLoveTest";
 			sourceTree = "<group>";
 		};
 		A078A24B661B7E8802E297CAC677E0AC /* Pods-MyLoveTest_Example */ = {
@@ -192,36 +209,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2C7DEF672947FBEB60BC5EF37554353 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23C81A3BCC3A66A62D7577152A02E8E4 /* Info.plist */,
-				D7A1DB2DBF749107458E39CE87CB7109 /* MyLoveTest.modulemap */,
-				95DCBC6E00EC88BAE9A0F5410E976A7E /* MyLoveTest.xcconfig */,
-				EFC9F824133439438E11D78D8D830B3A /* MyLoveTest-dummy.m */,
-				2AB418CAAB6FC3FD3FD40AA7B481E881 /* MyLoveTest-prefix.pch */,
-				8FF50E600180BFD06E84896D50194F49 /* MyLoveTest-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MyLoveTest";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D481E742C5AC883BB4D4C938BA59769 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C63FA9C935A7F499D487CCB7471B6671 /* MyLoveTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		89DD7213C653F989AA6E23482CA06E31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FD4E4FAE836C608FF6F7F2192911358 /* Pods-MyLoveTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992621B1685DB0ECCEF83922A8FF7242 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3221B639BC220A25C1F9281219008809 /* MyLoveTest-umbrella.h in Headers */,
+				09A4B1A5F44D9124151AD8FD0F68FE9C /* testobject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +258,13 @@
 			productReference = 19A95A6F383C8A02C8A19D7EB8336CF2 /* Pods_MyLoveTest_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FEB8F2A3F391DEAA4205D3F1E4E18AA /* MyLoveTest */ = {
+		ABC39EE04704EB2640B26D218960F066 /* MyLoveTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A156AB5A9ECE19311459EA431E31E6 /* Build configuration list for PBXNativeTarget "MyLoveTest" */;
+			buildConfigurationList = 90F9415BC7A88335F64A5916FFDA04BD /* Build configuration list for PBXNativeTarget "MyLoveTest" */;
 			buildPhases = (
-				4D156159D546597729630436973DE40E /* Sources */,
-				F66E192F701089F685F915CD12AD71A3 /* Frameworks */,
-				4D481E742C5AC883BB4D4C938BA59769 /* Headers */,
+				6A62AFC185851C663522E2A2A2768D66 /* Sources */,
+				94963E017098ED22E367AC64C297FB4C /* Frameworks */,
+				992621B1685DB0ECCEF83922A8FF7242 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -309,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FEB8F2A3F391DEAA4205D3F1E4E18AA /* MyLoveTest */,
+				ABC39EE04704EB2640B26D218960F066 /* MyLoveTest */,
 				0767EE711A4E9987E9D3C8B0A7698299 /* Pods-MyLoveTest_Example */,
 				E6B814E73E821CA5C12A4C3AD5ED523C /* Pods-MyLoveTest_Tests */,
 			);
@@ -317,12 +321,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D156159D546597729630436973DE40E /* Sources */ = {
+		6A62AFC185851C663522E2A2A2768D66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0906C54D0369D495BDB6F163DF99B4B /* MyLoveTest-dummy.m in Sources */,
-				17D69A6F237D290C8EF365EF0C359749 /* ReplaceMe.m in Sources */,
+				33E3192F2211B1DFAF85F3B02F0A6521 /* MyLoveTest-dummy.m in Sources */,
+				FD1F95661FBFC3A371D0F89E677769A9 /* testobject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +352,7 @@
 		017DDF19C5582CE33C1DC2C1475EFF0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLoveTest;
-			target = 3FEB8F2A3F391DEAA4205D3F1E4E18AA /* MyLoveTest */;
+			target = ABC39EE04704EB2640B26D218960F066 /* MyLoveTest */;
 			targetProxy = C0245C9A213EFE584E4D1B6D943FD47E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,9 +438,9 @@
 			};
 			name = Release;
 		};
-		45455A78DBE69E9A1302775A7DA2B63D /* Release */ = {
+		6D968D20803FD92FD01E09C1C7054EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95DCBC6E00EC88BAE9A0F5410E976A7E /* MyLoveTest.xcconfig */;
+			baseConfigurationReference = 11886C6E51922E427B92EEEC5A1FE04A /* MyLoveTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -466,6 +470,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		71D084602407B386904936AD6A74BB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11886C6E51922E427B92EEEC5A1FE04A /* MyLoveTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MyLoveTest/MyLoveTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLoveTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyLoveTest/MyLoveTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MyLoveTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B3EADBA0BD1564A5F524F486A1FF1826 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -575,39 +612,6 @@
 			};
 			name = Debug;
 		};
-		E6D57E3C1CF79B190F51501DD1BF0F0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95DCBC6E00EC88BAE9A0F5410E976A7E /* MyLoveTest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MyLoveTest/MyLoveTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyLoveTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MyLoveTest/MyLoveTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MyLoveTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -678,11 +682,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A156AB5A9ECE19311459EA431E31E6 /* Build configuration list for PBXNativeTarget "MyLoveTest" */ = {
+		90F9415BC7A88335F64A5916FFDA04BD /* Build configuration list for PBXNativeTarget "MyLoveTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6D57E3C1CF79B190F51501DD1BF0F0A /* Debug */,
-				45455A78DBE69E9A1302775A7DA2B63D /* Release */,
+				71D084602407B386904936AD6A74BB4B /* Debug */,
+				6D968D20803FD92FD01E09C1C7054EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
